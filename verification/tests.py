@@ -11,26 +11,46 @@ Each test is a dict with
 TESTS = {
     "Basics": [
         {
-            "input": [3, 2],
-            "answer": 5,
-            "explanation": "3+2=?"
+            "input": ["aenlbapyaokroownuigsqazcxqa", 2, 3, True],
+            "answer": "casinoroyale",
         },
         {
-            "input": [5, 7],
-            "answer": 12,
-            "explanation": "5+7=?"
+            "input": ["NOHTYP", 4, 1, True],
+            "answer": "YN",
+        },
+        {
+            "input": ["eiiodnteellddfnqarezvpihlm", 2, 1, True],
+            "answer": "liveandletdie",
+        },
+        {
+            "input": ["987654321", 3, 2, True],
+            "answer": "369",
         },
     ],
     "Extra": [
         {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
+            "input": ["jrjvesekckararrnnpkotrohqmeewt", 3, 4, True],
+            "answer": "moonraker",
         },
         {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
+            "input": ["jihgfedcba", 5, 4, True],
+            "answer": "ej",
+        },
+        {
+            "input": ["elvkotllhqthitwiawiisassuurfmoozrhfv", 2, 1, True],
+            "answer": "fromrussiawithlove",
+        },
+        {
+            "input": ["egassem", 7, 0, True],
+            "answer": "m",
+        },
+        {
+            "input": ["kreemgynyiifddwloofgsrx", 2, 3, True],
+            "answer": "goldfinger",
+        },
+        {
+            "input": ["XollehX", 2, 1, True],
+            "answer": "hlo",
         },
     ]
 }

@@ -1,20 +1,23 @@
 <!-- Describe task in general -->
 <!-- <img src="{{MEDIA_CONVERT}}title.png" class="title_img" /> -->
 <p style="text-align: justify;">
-    Sum two passed ints
+    The spy is clever – the message may be hidden backwards. Update your function to also accept a <code>rev</code> parameter with default value <code>False</code>. If <code>True</code>, decoding should proceed from the end of the string toward the beginning.
 </p>
 
-<p style="text-align: center;">
+<!-- <p style="text-align: center;">
     <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
-</p>
+</p> -->
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Input:</strong> Two arguments. Both are ints.
+    <strong>Input:</strong> Four arguments.
+    String <span translate="no">(str{% if is_js %}ing{% endif %})</span>,
+    positive and non-negative integers <span translate="no">({% if is_js %}number{% else %}int{% endif %})</span>,
+    boolean value <span translate="no">(bool{% if is_js %}ean{% endif %})</span>.
 </p>
 
 <p>
-    <strong>Output:</strong> Int. 
+    <strong>Output:</strong> String. 
 </p>
 
 
@@ -34,9 +37,10 @@
 
 <!-- Here you can explain some constraints for input-->
 <!-- The section is optional -->
-<!-- <p>
+<p>
     <strong>Preconditions:</strong>
     <ul>
-    <li><i>both given ints should be between -1000 and 1000</i></li>
+    <li><i>step > 0;</i></li>
+    <li><i>start >= 0.</i></li>
     </ul>
-</p> -->
+</p>
